@@ -1,0 +1,16 @@
+import java.util.*;
+import java.time.year;
+public class{
+    public static void
+    main(String[] args) {
+        Scanner scan = new
+        Scanner (System.in);
+        int age, birth_year,
+        current_year;
+        System.out.printIn("Enter Birth Year:");
+        birth_year = scan.nextInt();
+        current_year= Year.now().getValue();
+        age=current_year-birth_year;
+        System.out.printIn("Hello! you are " + age + "year old");
+    }
+}
